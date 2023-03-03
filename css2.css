@@ -37,7 +37,6 @@ html, body {
 }
 
 .landing .header .links li {
-    font-size: 18px;
     text-transform: uppercase;
     display: inline-block;
     margin-left: 5px;
@@ -74,11 +73,11 @@ a{
     float: left;
     margin-top: 130px;
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .landing .info h1 {
-    font-size: 40px;
+    font-size: 44px;
     margin: 0 0 20px;
     line-height: 1.4;
     color: white;
@@ -88,9 +87,9 @@ a{
     margin: 0;
     line-height: 1.6;
     font-weight: inherit;
-    font-size: 20px;
+    font-size: 24px;
     color: rgba(253, 248, 255, 0.93);
-    text-align: justify;
+    text-align: start;
 }
 
 .landing .info button {
@@ -118,20 +117,14 @@ h2 {
     font-weight: normal;
     letter-spacing: .125rem;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 34px;
     color: #ffffff;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
 }
 
 li {
     display: inline-block;
     font-size: 2em;
     list-style-type: none;
-    margin: 0;
     padding: 1em;
     text-transform: lowercase;
     color: #ffffff;
@@ -140,7 +133,7 @@ li {
 
 li span {
     display: block;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 }
 
 @media all and (max-width: 768px) {
@@ -163,14 +156,14 @@ button:focus {
 }
 
 #spoiler_button {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 49px;
     border: 0;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: #FFF;
     background-color: #6c63ff;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #spoiler_button:hover {
@@ -193,11 +186,10 @@ button:focus {
 }
 
 #additional p {
-    text-align: justify;
-    margin: 0;
+    margin: 0 100px;
     line-height: 1.6;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #additional{
