@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+    background: url("https://raw.githubusercontent.com/alekseeva22/second/main/fon.jpeg");
+    background-size: cover;
+}
+
+.box {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.landing {
+    position: relative;
+    background-color: transparent;
+}
+
+.landing .header {
+    display: inline;
+    padding: 10px 0 0;
+    position: relative;
+}
+
+.landing .header .links {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing .header .links li {
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.header .links li:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.landing .header .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: #6c63ff;
+    font-size: 18px;
+}
+
+.landing .info {
+    background: #6633994f;
+    width: 100%;
+    float: left;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.landing .info h1 {
+    font-size: 40px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: white;
+}
+
+.landing .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-weight: inherit;
+    font-size: 20px;
+    color: rgba(253, 248, 255, 0.93);
+    text-align: justify;
+}
+
+.landing .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #6c63ff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    display: block;
+    color: transparent;
+    margin: 120px auto;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    text-transform: lowercase;
+    color: #ffffff;
+    /*font-size: 18px;*/
+}
+
+li span {
+    display: block;
+    font-size: 2.5rem;
+}
+
+@media all and (max-width: 768px) {
+    h2 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+
+}
+
+button:focus {
+    outline: none;
+}
+
+#spoiler_button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #6c63ff;
+    font-size: 20px;
+}
+
+#spoiler_button:hover {
+    background-color: rgb(70, 64, 176);
+}
+
+#spoiler_button:active {
+    background-color: rgb(70, 64, 176);
+}
+
+.fadein, .fadeout {
+    height: 0;
+    transition: all 0.6s ease;
+    display: none;
+}
+
+.fadein {
+    display: block;
+    height: 100%;
+}
+
+#additional p {
+    text-align: justify;
+    margin: 0;
+    line-height: 1.6;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#additional{
+    background: rgba(243, 159, 215, 0.87);
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    padding: 40px;
+    line-height: 1.6;
+}
