@@ -81,7 +81,7 @@ header img {
 }
 
 header #headline {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
     text-align: left;
     left: 20%;
@@ -98,14 +98,14 @@ header #headline:before {
     left: -85%;
 }
 
-header #headline:after {
-    content: "two opportunities are available";
-    position: absolute;
-    top: 120%;
-    left: -10%;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
+/*header #headline:after {*/
+/*    content: "two opportunities are available";*/
+/*    position: absolute;*/
+/*    top: 120%;*/
+/*    left: -10%;*/
+/*    font-size: 20px;*/
+/*    letter-spacing: 1px;*/
+/*}*/
 
 header button {
     margin-top: 120vh;
