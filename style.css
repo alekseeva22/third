@@ -111,7 +111,7 @@ header button {
     margin-top: 120vh;
     width: 140px;
     height: 50px;
-    background: #00cc99;
+    background: rgba(248, 145, 145, 0.73);
     border: none;
     font-weight: 600;
     border-radius: 5px;
@@ -133,7 +133,7 @@ header button {
     width: 300px;
     padding-bottom: 1.5em;
     height: 100%;
-    background-color: CadetBlue;
+    background: rgba(248, 145, 145, 0.73);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,13 +203,13 @@ label {
 }
 
 .button1 {
-    background-color: #00cc99;
-    box-shadow: 0 0 10px 0 #00cc99 inset, 0 0 20px 2px #00cc99;
+    background: rgba(248, 145, 145, 0.73);
+    box-shadow: 0 0 10px 0 #ffcdcd inset, 0 0 20px 2px #ffcdcd;
 }
 
 .button2 {
-    background-color: #00cc99;
-    box-shadow: 0 0 10px 0 #00cc99 inset, 0 0 20px 2px #00cc99;
+    background: rgba(248, 145, 145, 0.73);
+    box-shadow: 0 0 10px 0 #ffcdcd inset, 0 0 20px 2px #ffcdcd;
 }
 
 .switch {
@@ -254,11 +254,11 @@ label {
 }
 
 input:checked + .slider {
-    background-color: #50bfe6;
+    background: rgba(248, 145, 145, 0.73);
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px #50bfe6;
+    box-shadow: 0 0 1px #ffcdcd;
 }
 
 input:checked + .slider:before {
