@@ -1,71 +1,16 @@
-(function () {
-    const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
+function check() {
+    var checkBox = document.getElementById("checbox");
+    var text1 = document.getElementsByClassName("text1");
+    var text2 = document.getElementsByClassName("text2");
 
-    let today = new Date(),
-        dd = String(today.getDate()).padStart(2, "0"),
-        mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear(),
-        nextYear = yyyy + 1,
-        dayMonth = "05/15/",  //дата окончания
-        date = dayMonth + yyyy;
-    today = mm + "/" + dd + "/" + yyyy;
-
-    if (today > date) {
-        date = dayMonth + nextYear;
-    }
-
-    const countDown = new Date(date).getTime(),
-
-        x = setInterval(function () {
-
-            const now = new Date().getTime(),
-
-                distance = countDown - now;
-
-
-            document.getElementById("days").innerText = Math.floor(distance / (day)),
-
-                document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-
-                document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-
-                document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-
-            if (distance < 0) {
-
-                document.getElementById("headline").innerText = "Акция!";
-
-                document.getElementById("countdown").style.display = "none";
-
-                document.getElementById("content").style.display = "block";
-
-                clearInterval(x);
-
-            }
-
-            //seconds
-
-        }, 0)
-}());
-
-
-function clickSpoilerButton() {
-    const divToggleVis = document.getElementById('spoiler_text');
-    const button = document.getElementById('spoiler_button');
-
-    if (divToggleVis.className === 'fadeout') {
-        divToggleVis.className = 'fadein';
-    } else {
-        divToggleVis.className = 'fadeout';
-    }
-    if (button.innerHTML === 'Узнать!') {
-        button.innerHTML = 'Скрыть';
-    } else {
-        button.innerHTML = 'Узнать!';
+    for (var i = 0; i < text1.length; i++) {
+        if (checkBox.checked === true) {
+            text1[i].style.display = "block";
+            text2[i].style.display = "none";
+        } else if (checkBox.checked === false) {
+            text1[i].style.display = "none";
+            text2[i].style.display = "block";
+        }
     }
 }
-
+check();
