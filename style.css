@@ -28,13 +28,13 @@ header .info p {
     font-size: 15px;
     color: white;
     text-align: justify;
-    top: -400px;
+    top: -500px;
     left: -10px;
 }
 
 header #circular-bg {
-    width: 95vw;
-    height: 95vw;
+    width: 85vw;
+    height: 85vw;
     background: rgba(248, 145, 145, 0.73);
     border-radius: 50%;
     z-index: -10;
@@ -81,31 +81,31 @@ header img {
 }
 
 header #headline {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 35px;
     text-align: left;
     left: 20%;
     top: 45%;
 }
 
-/*header #headline:before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    width: 60px;*/
-/*    height: 4px;*/
-/*    background: #fff;*/
-/*    top: 22%;*/
-/*    left: -85%;*/
-/*}*/
+header #headline:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: #fff;
+    top: 22%;
+    left: -85%;
+}
 
-/*header #headline:after {*/
-/*    content: "two opportunities are available";*/
-/*    position: absolute;*/
-/*    top: 120%;*/
-/*    left: -10%;*/
-/*    font-size: 20px;*/
-/*    letter-spacing: 1px;*/
-/*}*/
+header #headline:after {
+    content: "two opportunities are available";
+    position: absolute;
+    top: 120%;
+    left: -10%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
 header button {
     margin-top: 120vh;
@@ -203,13 +203,13 @@ label {
 }
 
 .button1 {
-    background: rgba(248, 145, 145, 0.73);
-    box-shadow: 0 0 10px 0 #ffcdcd inset, 0 0 20px 2px #ffcdcd;
+    background-color: rgba(248, 145, 145, 0.73);
+    box-shadow: 0 0 10px 0 rgba(248, 145, 145, 0.73) inset, 0 0 20px 2px rgba(248, 145, 145, 0.73);
 }
 
 .button2 {
-    background: rgba(248, 145, 145, 0.73);
-    box-shadow: 0 0 10px 0 #ffcdcd inset, 0 0 20px 2px #ffcdcd;
+    background-color: rgba(248, 145, 145, 0.73);
+    box-shadow: 0 0 10px 0 rgba(248, 145, 145, 0.73) inset, 0 0 20px 2px rgba(248, 145, 145, 0.73);
 }
 
 .switch {
@@ -254,11 +254,11 @@ label {
 }
 
 input:checked + .slider {
-    background: rgba(248, 145, 145, 0.73);
+    background-color: #50bfe6;
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px #ffcdcd;
+    box-shadow: 0 0 1px #50bfe6;
 }
 
 input:checked + .slider:before {
