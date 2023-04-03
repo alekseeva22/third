@@ -88,15 +88,15 @@ header #headline {
     top: 45%;
 }
 
-header #headline:before {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 4px;
-    background: #fff;
-    top: 22%;
-    left: -85%;
-}
+/*header #headline:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    width: 60px;*/
+/*    height: 4px;*/
+/*    background: #fff;*/
+/*    top: 22%;*/
+/*    left: -85%;*/
+/*}*/
 
 /*header #headline:after {*/
 /*    content: "two opportunities are available";*/
