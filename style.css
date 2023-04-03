@@ -33,8 +33,8 @@ header .info p {
 }
 
 header #circular-bg {
-    width: 85vw;
-    height: 85vw;
+    width: 95vw;
+    height: 95vw;
     background: rgba(248, 145, 145, 0.73);
     border-radius: 50%;
     z-index: -10;
